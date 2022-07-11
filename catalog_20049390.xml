@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--Linking CSS to XML-->
+<?xml-stylesheet type="text/css" href="catalog_20049390.css"?>
+<!--Ashwin Shrestha-->
+<!--Coursework-->
+<!--Linking XML Schema-->
+<store xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="catalog_20049390">
+<!--header tag-->
+    <header>
+            <Logo />
+            <compname>HAPPY CODES</compname>
+            <compinfo>Leicester Square Garden</compinfo>
+            <phone>4286789290</phone>
+            <compwebsite>www.happycodes.com</compwebsite>
+    </header>
+
+
+    <GiftCards>
+        <!--Gift card no 1-->
+        <card cardid="A001">
+            <CardImg id="P001" />
+            <detail detailid="D001">
+            <CardName nameid="N001"> Amazon 10$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="15"> Available: 15</available>
+            <Price currency="USD"> Price: $10 </Price>
+            <Validity> Valid Until : 6 months </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <discount discount="10"> Discount: 10% on any product</discount>
+            </detail>
+        </card>
+
+        <!--Gift card no 2-->
+        <card cardid="C002">
+            <CardImg id="P002" />
+            <detail detailid="D002" >
+            <CardName nameid="N002"> Amazon 50$ Gift Card </CardName>
+            <Type type="physical"> Type: Physical Card </Type>
+            <available quantity="5"> Available: 5</available>
+            <Price currency="USD"> Price: $10 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <delivery> Delivery date:2-4 days </delivery>
+            </detail>
+        </card>
+
+        <!--Gift card no 3-->
+        <card cardid="C003">
+            <CardImg id="P003" />
+            <detail detailid="D003">
+            <CardName nameid="N003"> Netflix 30$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="2"> Available: 2</available>
+            <Price currency="USD"> Price: $30 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="4"> No of User: Family Use (4 people) </noofuser>
+            <note>Note: Can be used by 4 people to buy Netflix Account</note>
+            </detail>
+        </card>
+
+        <!--Gift card no 4-->
+        <card cardid="C004">
+            <CardImg id="P004" />
+            <detail detailid="D004">
+            <CardName nameid="N004"> Hulu 10$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="9"> Available: 9</available>
+            <Price currency="EU"> Price: €10 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="2"> No of User: Couple Use(2 people)</noofuser>
+            </detail>
+        </card>
+
+
+        <!--Gift card no 5-->
+        <card cardid="C005">
+            <CardImg id="P005" />
+            <detail detailid="D005">
+            <CardName nameid="N005"> Google Play Store 20$ Gift Card </CardName>
+            <Type type="physical"> Type: Physical Card </Type>
+            <available quantity="30"> Available: 30</available>
+            <Price currency="USD"> Price: $20 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <delivery>Delivery: Within a week</delivery>
+            <physical> Only Physical Cards are Available</physical>
+            </detail>
+        </card>
+
+
+        <!--Gift card no 6-->
+        <card cardid="C006">
+            <CardImg id="P006" />
+            <detail detailid="D006">
+            <CardName nameid="N006"> Google Play Store 50$ Gift Card </CardName>
+            <Type type="physical"> Type: Physical Card </Type>
+            <available quantity="50"> Available: 50</available>
+            <Price currency="USD"> Price: $50 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <discount discount="10"> 10% Discount on any product</discount>
+            <delivery>Delivery: Within a week</delivery>
+            <physical> Only Physical Cards are Available</physical>
+            </detail>
+        </card>
+
+        <!--Gift card no 7-->
+        <card cardid="C007">
+            <CardImg id="P007" />
+            <detail detailid="D007">
+            <CardName nameid="N007"> Riot Games 10$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available> Not Available</available>
+            <Price currency="USD"> Price: $10 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <note>Note: This gift card is used to redeem VPoints in Valorant</note>
+            </detail>
+        </card>
+
+        <!--Gift card no 8-->
+        <card cardid="C008">
+            <CardImg id="P008" />
+            <detail detailid="D008">
+            <CardName nameid="N008"> Riot Games 25$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="30"> Available: 30</available>
+            <Price currency="USD"> Price: $25 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <note>Note: This gift card is used to redeem VPoints in Valorant</note>
+            </detail>
+        </card>
+
+        <!--Gift card no 9-->
+        <card cardid="C009" >
+            <CardImg id="P009" />
+            <detail detailid="D009" >
+            <CardName nameid="N009"> Steam 10$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="5"> Available: 5</available>
+            <Price currency="USD"> Price: $10 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <note>Note: This gift card is used to redeem Steam Money on Steam</note>
+            </detail>
+        </card>
+
+        <!--Gift card no 10-->
+        <card cardid="C0010">
+            <CardImg id="P0010" />
+            <detail detailid="D0010">
+            <CardName nameid="N0010"> Steam 20$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="15"> Available: 15</available>
+            <Price currency="USD"> Price: $20 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <note>Note: This gift card is used to redeem Steam Money on Steam</note>
+            </detail>
+        </card>
+
+        <!--Gift card no 11-->
+        <card cardid="C0011">
+            <CardImg id="P0011" />
+            <detail detailid="D0011">
+            <CardName nameid="N0011"> Shein INR 5000 Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="6"> Available: 6</available>
+            <Price currency="INR"> Price: INR 5000 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="2"> No of User: Couple Use(2 people)</noofuser>
+            <discount discount="15"> 15% discount on any product</discount>
+            </detail>
+        </card>
+
+        <!--Gift card no 12-->
+        <card cardid="C0012">
+            <CardImg id="P0012" />
+            <detail detailid="D0012">
+            <CardName nameid="N0012"> E-Bay 20$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="19"> Available: 19</available>
+            <Price currency="USD"> Price: $20 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <discount discount="5"> 5% discount on any product</discount>
+            </detail>
+        </card>
+
+        <!--Gift card no 13-->
+        <card cardid="C0013" >
+            <CardImg id="P0013" />
+            <detail detailid="D0013">
+            <CardName nameid="N0013"> E-Bay 100$ Gift Card </CardName>
+            <Type type="digital"> Type: Digital Card </Type>
+            <available quantity="9"> Available: 9</available>
+            <Price currency="USD"> Price: $100 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="3"> No of User: Trio Use(3 people)</noofuser>
+            <discount discount="20">20% discount on any product</discount>
+            </detail>
+        </card>
+
+        <!--Gift card no 14-->
+        <card cardid="C0014">
+            <CardImg id="P0014" />
+            <detail detailid="D0014" >
+            <CardName nameid="N0014"> Pizza Hut 20$ Gift Card </CardName>
+            <Type type="physical"> Type: Physical Card </Type>
+            <available quantity="10"> Available: 10</available>
+            <Price currency="USD"> Price: $20 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="2"> No of User: Couple User</noofuser>
+            <delivery>Delivery: Within 1-2 days</delivery>
+            <refund>Refundable if not scratched.</refund>
+            <physical> Only Physical Cards are Available</physical>
+            </detail>
+        </card>
+
+        <!--Gift card no 15-->
+        <card cardid="C0015">
+            <CardImg id="P0015" />
+            <detail detailid="D0015">
+            <CardName nameid="N0015"> Pizza Hut 5$ Gift Card </CardName>
+            <Type type="physical"> Type: Physical Card </Type>
+            <available quantity="10"> Available: 10</available>
+            <Price currency="USD"> Price: $5 </Price>
+            <Validity> Valid Until : 1 year after payment </Validity>
+            <noofuser user="1"> No of User: Single User</noofuser>
+            <delivery>Delivery: Within 1-2 days</delivery>
+            <refund>Refundable if not scratched.</refund>
+            <physical> Only Physical Cards are Available</physical>
+            </detail>
+        </card>
+        
+
+
+    </GiftCards>
+<!--End of Code-->
+
+
+</store>
